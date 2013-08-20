@@ -30,5 +30,7 @@ public class HandImpl implements IHand {
     @Override
     public void removeCard(int location) {
         contents.remove(location);
+
+
     }
 }
